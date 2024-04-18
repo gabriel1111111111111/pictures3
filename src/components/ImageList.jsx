@@ -2,12 +2,12 @@ import ImageShow from './ImageShow'
 
 function ImageList({ images }){
     const renderImage = images.map((image) => {
-        return <IImageShow key={image.id} image={image}/>
+        return <ImageShow key={image.id} image={image}/>
     })
     
     return(
         <div>
-            {render Image}
+            {renderImage}
         </div>
     )
 }
